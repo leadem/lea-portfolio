@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Léa de Miras</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <link href="resources/css/reset.css" rel="stylesheet">
+        <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="resources/images/favicon.png" sizes="16x16">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+        <script src="https://kit.fontawesome.com/4cffe61e20.js" crossorigin="anonymous"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69535708-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'UA-69535708-1');
+        </script>
+        </head>
+    
+    <body>
+        <header>
+            <div class="navigation">
+                <a href="index.html" class="name">Léa de Miras</a>
+    
+                <!-- Mobile Nav -->
+                <nav id="mobileNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-circle"></i></a>
+                    <div class="overlay-content">
+                      <a href="index.html">Projects</a>
+                      <a href="about.html">About</a>
+                    </div>
+                </nav>
+                  
+                <span id="mobileNav" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-grip-lines"></i></span>
+                <script>
+                    function closeNav() {
+                        document.getElementById("mobileNav").style.display = "none";
+                    }
+                    function openNav() {
+                        document.getElementById("mobileNav").style.display = "block";
+                    }
+                </script>
+                  
+                <!-- Desktop Nav -->
+                <nav class="desktop" id="overlay">
+                    <ul>
+                        <li><a class="underline" href="index.html">Projects</a></li>
+                        <li><a class="underline" href="about.html">About</a></li>
+                    </ul>
+                </nav>
+    
+                
+            </div>
+        </header>
+
+   <div class="site-body">
+       <div class="product-grid">
+
+           <div class="illustration-card" id="glide_console">
+                <img src="resources/images/illustrations/glide_console.png">
+            </div>
+
+            <div class="text-card">
+                <h2 class="underline-title">Glide Console Table</h2>
+                <p>With this project, I was invited to try something different to add to the storage collection. As it was initially supposed to be made out of bamboo,  I designed this slated slide with a curved tabletop. Following factory unavailabilities, it has been decided to do it in oak.</p>
+            </div>
+            
+            <div class="image-card">
+                 <img src="resources/images/pictures_products/product_design_12.jpg">
+            </div>
+            
+            <div class="image-card">
+                <img src="resources/images/pictures_products/product_design_15.jpg">
+            </div>
+            
+            <div class="image-card">
+                <img src="resources/images/pictures_products/product_design_4.jpg">
+            </div>
+
+            <div class="image-card">
+                <img src="resources/images/pictures_products/product_design_7.jpg">
+            </div>
+         
+       </div>
+    </div>
+    
+    <footer>
+        <p>️© Léa de Miras 2020</p>
+    </footer>
+    </body>
+</html>
