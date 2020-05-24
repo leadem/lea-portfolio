@@ -228,6 +228,18 @@ header #mobileNav {
   position: inherit;
 }
 
+.contact {
+  color: #000;
+  font-size: 0.75em;
+  line-height: 1.8;
+  width: 80%;
+  margin: 0% 6% 6% 6%;
+}
+
+.contact a {
+  color: #000;
+}
+
 
 
 /* Product_Animation Grid */
