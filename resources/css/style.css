@@ -236,8 +236,11 @@ header #mobileNav {
   margin: 0% 6% 6% 6%;
 }
 
-.contact a {
+.contact a,
+.contact li{
   color: #000;
+  font-family: "GlacialIndifferenceRegular", sans-serif;
+  font-weight: normal;
 }
 
 
