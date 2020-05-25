@@ -237,12 +237,15 @@ header #mobileNav {
   margin: 0% 6% 6% 6%;
 }
 
+
 .contact a,
-.contact li{
+.contact li,
+#not_found {
   color: #000;
   font-family: "GlacialIndifferenceRegular", sans-serif;
   font-weight: normal;
 }
+
 
 
 
@@ -306,6 +309,7 @@ header #mobileNav {
   background-color:#a98459;
 }
 
+#page_not_found,
 #newsletter_animation {
   background-color:#ea542d;
 }
