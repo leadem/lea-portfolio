@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Léa de Miras</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <link href="resources/css/reset.css" rel="stylesheet">
+        <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="resources/images/favicon.png" sizes="16x16">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+        <script src="https://kit.fontawesome.com/4cffe61e20.js" crossorigin="anonymous"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69535708-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'UA-69535708-1');
+        </script>
+        </head>
+    
+    <body>
+        <header>
+            <div class="navigation">
+                <a href="index" class="name">Léa de Miras</a>
+    
+                <!-- Mobile Nav -->
+                <nav id="mobileNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-circle"></i></a>
+                    <div class="overlay-content">
+                      <a href="index">Projects</a>
+                      <a href="about">About</a>
+                    </div>
+                </nav>
+                  
+                <span id="mobileNav" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-grip-lines"></i></span>
+                <script>
+                    function closeNav() {
+                        document.getElementById("mobileNav").style.display = "none";
+                    }
+                    function openNav() {
+                        document.getElementById("mobileNav").style.display = "block";
+                    }
+                </script>
+                  
+                <!-- Desktop Nav -->
+                <nav class="desktop" id="overlay">
+                    <ul>
+                        <li><a class="underline" href="index">Projects</a></li>
+                        <li><a class="underline" href="about">About</a></li>
+                    </ul>
+                </nav>
+    
+                
+            </div>
+        </header>
+
+   <div class="site-body">
+       <div class="product-grid">
+
+           <div class="illustration-card" id="page_not_found">
+                <img src="resources/images/illustrations/sad_face.png">
+            </div>
+
+            <div class="text-card">
+                <h2 class="underline-title">The page you are looking for can't be found.</h2>
+                <p><a id="not_found" href="index">Go back to the Homepage</a></p>
+            </div>
+       </div>
+    </div>
+    
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Léa de Miras</p>
+    </footer>
+    </body>
+</html>
